@@ -1,4 +1,4 @@
-# 5 - axis setting
+# 3 - axis setting
 
 import matplotlib.pyplot as plt
 import numpy as np
