@@ -2,6 +2,7 @@
 """
 Please note, this script is for python3+.
 """
+# Youtube video tutorial: https://www.youtube.com/watch?v=4Y7f0znUT6E&list=PLXO45tsB95cKiBRXYqNNCw8AUo6tYen3l&index=3
 
 import matplotlib.pyplot as plt
 import numpy as np
