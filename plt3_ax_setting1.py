@@ -13,6 +13,7 @@ plt.plot(x, y2)
 plt.plot(x, y1, color='red', linewidth=1.0, linestyle='--')
 # set x limits
 plt.xlim((-1, 2))
+# set y limits
 plt.ylim((-2, 3))
 plt.xlabel('I am x')
 plt.ylabel('I am y')
@@ -24,4 +25,5 @@ plt.xticks(new_ticks)
 # set tick labels
 plt.yticks([-2, -1.8, -1, 1.22, 3],
            [r'$really\ bad$', r'$bad$', r'$normal$', r'$good$', r'$really\ good$'])
+#利用正則來改變字體r'$(文字)$' \ 讓機器讀出空格 \alpha
 plt.show()
