@@ -23,11 +23,14 @@ plt.yticks([-2, -1.8, -1, 1.22, 3],
            ['$really\ bad$', '$bad$', '$normal$', '$good$', '$really\ good$'])
 # to use '$ $' for math text and nice looking, e.g. '$\pi$'
 
-# gca = 'get current axis'
+# gca = 'get current axis' 取出目前座標軸
 ax = plt.gca()
+#spines = 脊梁(圖片中的四個邊框)
+
 ax.spines['right'].set_color('none')
 ax.spines['top'].set_color('none')
 
+#將底部的脊梁改變成x軸的位置
 ax.xaxis.set_ticks_position('bottom')
 # ACCEPTS: [ 'top' | 'bottom' | 'both' | 'default' | 'none' ]
 
@@ -36,6 +39,7 @@ ax.spines['bottom'].set_position(('data', 0))
 # axes: percentage of y axis
 # data: depend on y data
 
+#將左邊的脊梁改變成y軸的位置
 ax.yaxis.set_ticks_position('left')
 # ACCEPTS: [ 'left' | 'right' | 'both' | 'default' | 'none' ]
 
